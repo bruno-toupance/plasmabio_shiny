@@ -14,11 +14,6 @@ dependencies:
   - jupyterlab-topbar
   - jupyterlab-topbar-text
   - jupyterlab-system-monitor
-  # R environment
+  # R base environment
   - r-irkernel
   - r-base>=4
-  - r-tidyverse
-  - r-readxl 
-  - r-rcpp
-
-
