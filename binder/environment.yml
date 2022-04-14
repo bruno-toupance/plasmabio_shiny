@@ -19,6 +19,6 @@ dependencies:
   - r-base>=4
   - r-tidyverse
   - r-readxl 
-  -  r-rcpp
+  - r-rcpp
 
 
