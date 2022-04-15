@@ -1,4 +1,4 @@
 #!/bin/bash
-set -e
-export LD_LIBRARY_PATH=${NB_PYTHON_PREFIX}/lib:${LD_LIBRARY_PATH}
-exec "$@"
+
+echo "Server Configuration File" >> /etc/rstudio/rserver.conf
+echo "rsession-ld-library-path=/srv/conda/envs/notebook/lib:/usr/lib/x86_64-linux-gnu" >> /etc/rstudio/rserver.conf

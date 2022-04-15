@@ -17,3 +17,5 @@ dependencies:
   # R base environment
   - r-irkernel
   - r-base>=4
+  - r-tidyverse
+  - r-rcpp
