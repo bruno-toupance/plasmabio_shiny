@@ -14,3 +14,7 @@ R -e "BiocManager::install()"
 # Biostrings: Efficient manipulation of biological strings
 # https://bioconductor.org/packages/release/bioc/html/Biostrings.html
 R -e "BiocManager::install('Biostrings')"
+
+# Configure RStudio server
+echo "Server Configuration File" >> /etc/rstudio/rserver.conf
+echo "rsession-ld-library-path=/srv/conda/envs/notebook/lib:/usr/lib/x86_64-linux-gnu" >> /etc/rstudio/rserver.conf
