@@ -1,3 +1,4 @@
+install.packages("rcpp")
 install.packages("tidyverse")
 install.packages("diagram")
 # Install Bioconductor package manager
