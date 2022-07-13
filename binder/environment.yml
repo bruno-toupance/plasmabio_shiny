@@ -14,8 +14,17 @@ dependencies:
   - jupyterlab-topbar
   - jupyterlab-topbar-text
   - jupyterlab-system-monitor
+  - nodejs
+  - pip
+  # Jupyter archive
+  # https://github.com/jupyterlab-contrib/jupyter-archive
+  - jupyter-archive
   # R environment
   - r-irkernel
   - r-base>=4
   - r-tidyverse
-
+  # JupyterLab Variable inspector
+  # https://github.com/lckr/jupyterlab-variableInspector
+  - r-repr
+  - pip:
+    - lckr-jupyterlab-variableinspector
