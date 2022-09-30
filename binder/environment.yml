@@ -25,6 +25,7 @@ dependencies:
   - r-tidyverse
   # JupyterLab Variable inspector
   # https://github.com/lckr/jupyterlab-variableInspector
-  - r-repr
-  - pip:
-    - lckr-jupyterlab-variableinspector
+  # Disabled due to bug https://github.com/lckr/jupyterlab-variableInspector/issues/122
+  # - r-repr
+  # - pip:
+    # - lckr-jupyterlab-variableinspector
