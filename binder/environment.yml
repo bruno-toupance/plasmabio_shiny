@@ -9,12 +9,11 @@ channels:
 dependencies:
   # Jupyter dependencies
   - jupyterhub>=1.5,<2
-  - jupyterlab>=3.2,<4
-  - jupyter-resource-usage
-  - jupyterlab-topbar
-  - jupyterlab-topbar-text
-  - jupyterlab-system-monitor
-  - nodejs
+  - jupyterlab>=4,<5
+  - jupyter-resource-usage>=1,<2
+  # - jupyterlab-topbar
+  # - jupyterlab-topbar-text
+  - nodejs>=18
   - pip
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
