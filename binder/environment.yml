@@ -23,6 +23,7 @@ dependencies:
   - r-irkernel
   - r-base>=4
   - r-tidyverse
+  - r-plotly
   # JupyterLab Variable inspector
   # https://github.com/lckr/jupyterlab-variableInspector
   # Disabled due to bug https://github.com/lckr/jupyterlab-variableInspector/issues/122
